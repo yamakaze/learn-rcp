@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloWorld
+Bundle-SymbolicName: HelloWorld;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: helloworld.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.junit;bundle-version="4.13.0",
+ org.junit
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: HelloWorld
+Bundle-ActivationPolicy: lazy
